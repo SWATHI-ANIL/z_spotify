@@ -1,0 +1,402 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: CircularSp, spotify-circular, Helvetica, Arial, sans-serif;
+}
+
+body {
+    height: 100%;
+}
+
+.container {
+    margin: auto;
+}
+
+
+/* section 1 */
+
+.main-nav {
+    height: 80px;
+    padding: 20px;
+    background-color: #000000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.white-text {
+    color: white;
+    font-style: normal;
+    text-decoration: none;
+}
+
+.white-text:hover {
+    color: #1ed760;
+}
+
+img.spotify-logo {
+    width: 8%;
+    margin-inline-start: 180px;
+}
+
+.nav-options {
+    display: flex;
+    gap: 3rem;
+    margin-inline-end: 180px;
+}
+
+.line {
+    border: 0.5px solid white;
+}
+
+
+/* section 2 */
+
+.section-2 {
+    height: 490px;
+    background-color: #1d75de;
+    display: flex;
+    align-items: center;
+
+}
+
+.section-2-mainheading p {
+
+    position: relative;
+    right: 1.8rem;
+    top: 0.7rem;
+}
+
+.section-2-links a {
+
+    position: relative;
+    right: 4.8rem;
+    top: 1.3rem;
+}
+
+
+.section2.link-3 {
+
+    position: relative;
+    left: 2.1rem;
+    top: 2rem;
+}
+
+
+.section-2-mainheading {
+    color: white;
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    bottom: 10px;
+    gap: 30px;
+    padding-left: 120px;
+}
+
+.section-2-links {
+    /* display: flex;
+    justify-content: center; */
+    gap: 10px;
+    position: relative;
+}
+
+.link1.btn-black {
+    background-color: #000000;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 25px 10px 25px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.btn-black:hover {
+    padding: 12px 27px 12px 27px;
+}
+
+.link2.btn2 {
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 25px 10px 25px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.btn2:hover {
+    padding: 12px 27px 12px 27px;
+}
+
+.section2.link-3 a {
+    color: white;
+    font-size: 0.7rem;
+    text-decoration: underline;
+}
+
+.section2.link-3 {
+    font-size: 0.7rem;
+}
+
+
+/* section 3 */
+
+.section-3 {
+    height: 550px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.section3-heading {
+    position: relative;
+    left: 23rem;
+    top: 4rem;
+    font-size: 2rem;
+}
+
+.section3-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    right: 9rem;
+
+
+}
+
+.sec3-logo {
+    margin: 0px 30px 0px 30px;
+}
+
+
+.section3-cards img {
+    width: 8rem;
+
+}
+
+
+/* section 4  */
+
+.section-4 {
+    background-color: #efefef;
+    height: 130vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+.sec-4-headings-minipics {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 32rem;
+    top: 30px;
+    padding-top: 20px;
+}
+
+
+.sec4-mainheading {
+    font-size: 1.8rem;
+    font-weight: 700;
+    /* font-size:xx-large; */
+
+}
+
+.sec4-subheading {
+    margin: 15px 0px 15px 0px;
+    font-size: 15px;
+    position: relative;
+    right: 3rem;
+    white-space: nowrap;
+}
+
+
+.section4-minipics img {
+    width: 1.5rem;
+    height: 25px;
+}
+
+.section4-minipics {
+    padding-left: 3.7rem;
+}
+
+
+/* Section 4 - Cards */
+
+.cards-parent {
+    display: flex;
+    position: relative;
+    top: 200px;
+    right: 200px;
+    height: 100vh;
+
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    margin: 8px;
+    width: 13.5rem;
+    height: 650px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 8px;
+
+}
+
+
+.cards-1st-list {
+    border-bottom: 1px solid black;
+}
+
+
+.card3rd-part {
+
+    position: relative;
+    top: 7rem;
+
+}
+
+
+.card3rd-part.btn1 {
+    margin-top: 50px;
+}
+
+.cards-ul {
+    padding-top: 20px;
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+
+.freetrial-btn {
+
+    border-radius: 5px;
+    font-size: 0.68rem;
+    background-color: #0D72EA;
+    color: #efefef;
+    margin: 0px 0px 10px;
+    padding: 6px 8px 6px 8px;
+    width: 5rem;
+}
+
+
+.cards-btn {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 45px 10px 45px;
+
+}
+
+
+.cards-btn:hover {
+
+    padding: 14px 48px 13px 48px;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 1rem;
+    color: #555;
+}
+
+
+.cards-smalldetails {
+    margin-top: 30px;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.cards-smalldetails a {
+    color: #000000;
+}
+
+
+/* final section/footer */
+
+footer {
+    height: 520px;
+    background-color: black;
+    /* padding: 3px 0 15px; */
+
+}
+
+.sec5-mainlogo {
+    position: relative;
+    padding-top: 50px;
+    padding-left: 30px;
+    width: 170px;
+    left: 6rem;
+}
+
+.footer-listparent {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    gap: 5rem;
+    right: 7rem;
+}
+
+
+.footer-list ul {
+    list-style: none;
+    color: #fff;
+}
+
+
+.footer-list li {
+
+    padding: 3px 0 15px;
+    font-size: x-small;
+
+}
+
+.fotr-ul-li-1 {
+    color: dimgrey;
+    position: relative;
+    bottom: 25px;
+    font-size: x-small;
+
+
+}
+
+.footerlogos-container ul {
+    list-style: none;
+    display: flex;
+    position: relative;
+    justify-content: end;
+    gap: 10px;
+    margin-right: 170px;
+    bottom: 10rem;
+    right: 10px;
+    flex-direction: row;
+}
+
+.footerlogos-container img:hover {
+    color: #1ed760;
+}
+
+.footerlogos-container img {
+    width: 3.3rem;
+}
